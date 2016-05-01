@@ -1,4 +1,4 @@
-определяет обьем и количество папопок и файлов в директории
+#определяет обьем и количество папопок и файлов в директории
 
 для всех операционных систем
 
@@ -20,10 +20,10 @@
 выводит результат в консоль вида
 
 /Users
- Size: 41.837G
- Folders and Files: 294798
- Files: 243228
- Folders: 51570
+ Size: 41.837G\n
+ Folders and Files: 294798\n
+ Files: 243228\n
+ Folders: 51570\n
  Analyzed ends in 00 hours, 00 minutes, 14 seconds, 25 milliseconds
 
 
