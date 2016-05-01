@@ -1,30 +1,27 @@
-#определяет обьем и количество папопок и файлов в директории
+#outputs the result to the terminal
+###  /Users  
+###  Size: 41.837G  
+###  Folders and Files: 294798  
+###  Files: 243228  
+###  Folders: 51570  
+###  Analyzed ends in 00 hours, 00 minutes, 14 seconds, 25 milliseconds  
 
-для всех операционных систем
+#### * for all operating systems
+#### * multithread 
+#### * automatically adjusts the number of threads on the CPU load
+#### * It has a very big advantage in speed over standard on huge volumes and remote network drives
 
-многопоточный 
 
-автоматически регулирует количество потоков по загрузке процессора
+#### it is possible to add windows on the right click 
+##### * open regedit
+##### * go to HKEY_CLASSES_ROOT\directory\shell
+##### * add new key in HKEY_CLASSES_ROOT\directory\shell with  name folderAnalyzer  and add Data "Open with folder Analyzer"
+##### * add new key in HKEY_CLASSES_ROOT\directory\shell\folderAnalyzer with  name command  and add Data:   cmd.exe /s /k "java -jar C:\Users\user\Desktop\folderAnalyzer-1.0.jar %1"
+##### * close regedit
 
-имеет очень большое преимущество в скорости работы перед стандартными на больших, огромных объемах и удаленных сетевых дисках
+#### run in terminal java -jar folderAnalyzer-1.0.jar Z:\
 
-имеется возможность в windows добавить на правую кнопку 
-* open regedit
-* go to HKEY_CLASSES_ROOT\directory\shell
-* add new key in HKEY_CLASSES_ROOT\directory\shell with  name folderAnalyzer  and add Data "Open with folder Analyzer"
-* add new key in HKEY_CLASSES_ROOT\directory\shell\folderAnalyzer with  name command  and add Data:   cmd.exe /s /k "java -jar C:\Users\user\Desktop\folderAnalyzer-1.0.jar %1"
-* close regedit
 
-запускается в консоли java -jar folderAnalyzer-1.0.jar Z:\
-
-выводит результат в консоль вида
-
-/Users
- Size: 41.837G\n
- Folders and Files: 294798\n
- Files: 243228\n
- Folders: 51570\n
- Analyzed ends in 00 hours, 00 minutes, 14 seconds, 25 milliseconds
 
 
 
