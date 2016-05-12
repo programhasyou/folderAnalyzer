@@ -5,6 +5,15 @@
 #####  Files: 243228  
 #####  Folders: 51570  
 #####  Analyzed ends in 00 hours, 00 minutes, 14 seconds, 25 milliseconds  
+
+#### or
+
+#####  Z:\  
+#####  Size: 2129.111G  
+#####  Folders and Files: 10585231  
+#####  Files: 9573251  
+#####  Folders: 1011980  
+#####  Analyzed ends in 01 hours, 18 minutes, 56 seconds, 607 milliseconds  
 ***
 
 
@@ -26,6 +35,8 @@
  
  
 #### run in terminal java -jar folderAnalyzer-1.0.jar Z:\
+
+
 
 
 
